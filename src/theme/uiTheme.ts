@@ -1,0 +1,33 @@
+export const uiTheme = {
+  pixi: {
+    canvasBackground: 0xf3f8ff,
+    sceneBackground: 0xeaf2ff,
+    gridDot: 0x8e98a8,
+    wire: 0x000000,
+    projectsIcon: 0x111111,
+    white: 0xffffff,
+  },
+  card: {
+    text: 0x111111,
+    textSecondary: 0x525252,
+    border: 0x111111,
+    borderHover: 0x000000,
+    borderSelected: 0x000000,
+    fill: 0xffffff,
+    fillHover: 0xffffff,
+    fillProjects: 0xfcfcfc,
+    shadow: 0x000000,
+  },
+  css: {
+    panelBg: "#FFFFFF",
+    panelBorder: "rgba(17,17,17,0.16)",
+    panelShadow: "rgba(0,0,0,0.08)",
+    cardBg: "#FFFFFF",
+    cardMutedBg: "#F5F5F5",
+    badgeBg: "#F2F2F2",
+    text: "#111111",
+    textSecondary: "#5C5C5C",
+    textTertiary: "#434343",
+    overlayBg: "rgba(255,255,255,0.98)",
+  },
+} as const;

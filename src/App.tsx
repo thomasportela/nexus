@@ -1,14 +1,16 @@
 import { CanvasView } from "./canvas/CanvasView";
-import { NavigationOverlay } from "./components/NavigationOverlay";
-import { RadialScene } from "./components/RadialScene";
+import { Breadcrumb } from "./components/Breadcrumb";
+import { OrgCanvas } from "./components/OrgCanvas";
+import { RightPanel } from "./components/RightPanel";
 
 export default function App() {
   return (
     <>
+      <Breadcrumb />
       <CanvasView>
-        <RadialScene />
+        <OrgCanvas />
       </CanvasView>
-      <NavigationOverlay />
+      <RightPanel />
     </>
   );
 }
